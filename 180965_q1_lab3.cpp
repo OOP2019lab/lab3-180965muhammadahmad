@@ -184,6 +184,7 @@ int main()
 		cout << "enter 9 to continue and 0 to end the program" << endl;
 		cin >> check;
 	}
+	// deallocation of dynamic array
 	for (int i = 0; i < 2; i++)
 	{
 		delete[i]classroom;
